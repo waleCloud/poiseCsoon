@@ -36,7 +36,15 @@ if( isset($_POST['submit']) )
     if(!$stmt->execute())
       { echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error; }
 
-    //echo '<p class="label label-success">Your Enquiry was submitted successfully</p>';
+    // the message
+$msg = "EMAIL: $email <br> NAME: $firstname $lastname <br> PHONE: $tel <br> Organization: $org <br> Preferred contact: $how_contact <br>
+Time to contact: $when_contact <br> SUBJECT: $subject <br> MESSAGE: $msg <br> Date: $date.";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
   }
 
 }
