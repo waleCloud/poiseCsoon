@@ -1,0 +1,1 @@
+<?php // silence s golden
