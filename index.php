@@ -63,9 +63,9 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
 <!--[if lt IE 9]> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
-<title>Poise nigeria</title>
+<title>Poise Nigeria</title>
 <meta name="description" content="">
-<meta name="author" content="WebThemez">
+<meta name="author" content="">
 <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -93,6 +93,7 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
     <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
     <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
     <li><a href="#contactUs" class="scroll-link">Contact us</a></li>
+    <li><a href="#brochure" class="scroll-link">Brochure</a></li>
   </ul>
 </nav>
 <!--/.header-->
@@ -105,34 +106,28 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
       </div>
       <div class="heading text-center">
         <h2 id="smiley">We are reconstructing to serve you better </h2>
-        <strong>Stay tuned for something amazing</strong> </div>
+        <strong>Stay tuned for something amazing</strong>
       <!-- <div class="countdown styled"></div> -->
-
-
-      <div id="time_countdown" class="time-count-container">
-
-          
-        <div class="row">
-  <div class="col-sm-4"><a href="#home" class="scroll-link btn btn-secondary">Home</a></div>
+<div class="row">
   <div class="col-sm-4"><a href="#aboutUs" class="scroll-link btn btn-secondary">About Us</a></div>
   <div class="col-sm-4"><a href="#contactUs" class="scroll-link btn btn-secondary">Contact Us</a></div>
+  <div class="col-sm-4"><a href="#brochure" class="scroll-link btn btn-secondary">2017 Brochure</a></div>
 </div>
-
-
-    </div>
+</div>
   </div>
 </section>
+<p></p><p></p><p><p><p>
 <section id="aboutUs">
   <div class="container">
     <div class="row feature design">
       <div class="six columns right">
         <h2>Our Company</h2>
-        <p>Poise Nigeria Limited is a Consultancy and Training organization with a first rate, dynamic and highly adaptable training package.</p>
+        <p>Poise Nigeria Limited is a Consultancy and Training Organization with a first rate, dynamic and highly adaptable training package.</p>
         <p>Poise Nigeria is about Total Personality Development &amp; Impression Management; we create class &amp; brand people.</p>
         <p>Poise Nigeria is certified by The Protocol School of Washington, USA, which is an international consulting firm that specialises in international protocol, etiquette certification and training.</p>
         <p>Poise Nigeria was recently one of the beneficiaries of Nigeria’s 50 fastest growing companies. With a growth rate of 181% in the period of 2009-2011, Poise Nigeria has been awarded the 20th fastest growing company on the listed organisations by AllWorld Network International.</p>
       </div>
-      <div class="six columns feature-media left"> <img width="700" height="400" src="images/phouse.jpg" alt=""> </div>
+      <div class="six columns feature-media left" style="text-align: center;" > <img style="text-align: center;" src="images/phouse.jpg" alt=""> </div>
     </div>
   </div>
 </section>
@@ -143,6 +138,9 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
         <div class="heading text-center"> 
           <!-- Heading -->
           <h2>Contact Poise Nigeria</h2>
+          <p><strong>Address:</strong> Plot 5A, Pinnock Beach Estate, Lekki, Lagos Nigeria </p>
+          <p><strong>Email:</strong> poise@poisenigeria.org </p>
+          <p><strong>Phone:</strong> 01-3427870</p>
         </div>
       </div>
       <div class="row mrgn30">
@@ -181,7 +179,7 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
               </div>	
               <label for="Message">Enquiry</label>  
 							<div class="form-group">
-							<textarea name="msg" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="I'm a young Biochemistry graduate and would love to be a part of your Making An Impact Project. I'd like to know what necessary steps are needed to enroll. I look forward to hearing from you soon. Many thanks." required></textarea>
+							<textarea name="msg" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="I would like to request a presentation on how your Performance enhancing corporate culture programme can increase our profit and improve our bottom line​​​" required></textarea>
 							</div>
 							<div class="form-group">
 							<input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp" />
@@ -191,9 +189,11 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
 				  </div>
        
       </div>
-      <h2>Download our brochure</h2>
+      <section id="brochure">
+         <h2>Download our brochure</h2>
           <p>Stay upto date and afreshed with our 2017 Brochure.</p>
-          <a class="btn btn-danger" href="">Click here to download</a>
+          <a class="btn btn-danger" href="https://drive.google.com/open?id=0B4A4gr4J9tIdZFZGanR1MnJ6czg">Click here to download</a>
+      </section>
     </div>
     <!--/.container--> 
   </div>
@@ -212,7 +212,7 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
       <p>
         <p><strong>Address:</strong> Plot 5A, Pinnock Beach Estate, Lekki, Lagos Nigeria </p>
         <p><strong>Email:</strong> poise@poisenigeria.org </p>
-        <p><strong>Phone:</strong> 01-3427871</p>
+        <p><strong>Phone:</strong> 01-3427870</p>
       </p>
       <div class="col-sm-12 text-center"> Copyright 2017 | All Rights Reserved <a href="http://poisenigeria.org">Poise Nigeria</a> </div>
     </div>
