@@ -145,47 +145,7 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
       </div>
       <div class="row mrgn30">
 	  <div id="contactfrm">
-	  <form method="POST" id="contact-form" class="form-horizontal" action="" onSubmit="alert('Thank you for your feedback!');">
-							<div class="col-sm-12">
-							<div class="form-group">
-							<input type="text" name="firstname" id="Name" class="form-control wow fadeInUp" placeholder="Name" required="true"/>
-							</div>
-              <div class="form-group">
-              <input type="text" name="surname" id="SName" class="form-control wow fadeInUp" placeholder="Surname" required="true"/>
-              </div>
-              <div class="form-group">
-              <input type="text" name="org" id="org" class="form-control wow fadeInUp" placeholder="organization" required="true"/>
-              </div>
-              <div class="form-group">
-              <input type="tel" name="tel" id="tel" class="form-control wow fadeInUp" placeholder="0801 234 5678" required="true"/>
-              </div>
-							<div class="form-group">
-							<input type="email" name="email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required="true"/>
-							</div>
-              <label for="how_contact">How can we contact you?</label>	
-              <div class="form-group">
-                <select name="how_contact" id="how_contact" class="form-control wow fadeInUp" required="true">
-                  <option value="email" style="color: red;" class="form-control">Email ?</option>
-                  <option value="phone" style="color: red;" class="form-control">Phone ?</option>
-                </select>
-              </div>
-              <label for="when_contact">When can we contact you?</label>  
-              <div class="form-group">
-                <input type="date" name="when_contact" id="date" class="form-control">
-              </div>
-              <label for="subject">Subject</label>  
-              <div class="form-group">
-                <input type="text" name="subject" id="subject" class="form-control" placeholder="subject">
-              </div>	
-              <label for="Message">Enquiry</label>  
-							<div class="form-group">
-							<textarea name="msg" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="I would like to request a presentation on how your Performance enhancing corporate culture programme can increase our profit and improve our bottom line​​​" required></textarea>
-							</div>
-							<div class="form-group">
-							<input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp" />
-							</div>
-							</div>
-						</form>		
+	  <script type="text/javascript" src="https://form.myjotform.com/jsform/70814231801547"></script>
 				  </div>
        
       </div>
