@@ -105,7 +105,7 @@ mail("poise@poisenigeria.org","New Message from poise one pager",$msg);
         <div class="" style="text-align: center;"> <img width="500" src="images/poise3.png" alt="POISE"/> </div>
       </div>
       <div class="heading text-center">
-        <h2 id="smiley">We are reconstructing to serve you better </h2>
+        <h2 id="smiley">WE ARE ANONYMOUS!!! </h2>
         <strong>Stay tuned for something amazing</strong>
       <!-- <div class="countdown styled"></div> -->
 <div class="row">
